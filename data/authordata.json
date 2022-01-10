@@ -1,0 +1,11 @@
+[
+    {
+        "id": 1,
+        "name": "Author 1",
+        "username": "author_1",
+        "password": "author_1",
+        "subscribers": [
+            "harshar715@gmail.com"
+        ]
+    }
+]

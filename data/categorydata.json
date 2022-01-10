@@ -1,0 +1,97 @@
+[
+    {
+        "id": 0,
+        "title": "Special Coverage",
+        "code": "spcl_cvrg",
+        "children": [
+            {
+                "id": 100,
+                "title": "Today",
+                "code": "today"
+            },
+            {
+                "id": 101,
+                "title": "Yesterday",
+                "code": "yesterday"
+            },
+            {
+                "id": 102,
+                "title": "Latest Posts & Reviews",
+                "code": "latest_posts_and_reviews"
+            }
+        ]
+    },
+    {
+        "id": 1,
+        "title": "Work & Profession",
+        "code": "work_and_profession",
+        "children": [
+            {
+                "id": 103,
+                "title": "Organizations & Details",
+                "code": "organizations_and_details"
+            },
+            {
+                "id": 104,
+                "title": "Projects & Details",
+                "code": "projects_and_details"
+            },
+            {
+                "id": 105,
+                "title": "My Applications & Websites",
+                "code": "my_applications_websites"
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "title": "Suggested",
+        "code": "suggested",
+        "children": [
+            {
+                "id": 106,
+                "title": "Travel Blogs",
+                "code": "travel_blogs"
+            },
+            {
+                "id": 107,
+                "title": "Personal Blogs",
+                "code": "personal_blogs"
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "title": "Intrests & Reviews",
+        "code": "intrests_reviews",
+        "children": [
+            {
+                "id": 108,
+                "title": "Food Reviews",
+                "code": "food_reviews"
+            },
+            {
+                "id": 109,
+                "title": "Sports Reviews",
+                "code": "sports_reviews"
+            },
+            {
+                "id": 110,
+                "title": "Anime Reviews",
+                "code": "anime_reviews"
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "title": "Other Posts",
+        "code": "other_posts",
+        "children": [
+            {
+                "id": 111,
+                "title": "Others",
+                "code": "others"
+            }
+        ]
+    }
+]

@@ -1,0 +1,390 @@
+/* .container {
+    padding: 0 2rem;
+} */
+
+.main {
+    min-height: 100vh;
+    padding: 4rem 0;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer {
+    display: flex;
+    flex: 1;
+    padding: 2rem 0;
+    border-top: 1px solid #eaeaea;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.title a {
+    color: #0070f3;
+    text-decoration: none;
+}
+
+.title a:hover,
+.title a:focus,
+.title a:active {
+    text-decoration: underline;
+}
+
+.title {
+    margin: 0;
+    line-height: 1.15;
+    font-size: 4rem;
+}
+
+.title,
+.description {
+    text-align: center;
+}
+
+.description {
+    margin: 4rem 0;
+    line-height: 1.5;
+    font-size: 1.5rem;
+}
+
+.code {
+    background: #fafafa;
+    border-radius: 5px;
+    padding: 0.75rem;
+    font-size: 1.1rem;
+    font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
+        Bitstream Vera Sans Mono, Courier New, monospace;
+}
+
+.grid {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    flex-wrap: wrap;
+    max-width: 100%;
+}
+
+.card {
+    margin: 1rem;
+    /* padding: 1.5rem; */
+    text-align: left;
+    color: inherit;
+    text-decoration: none;
+    border: 1px solid #eaeaea;
+    border-radius: 10px;
+    transition: color 0.15s ease, border-color 0.15s ease;
+    max-width: 300px;
+}
+
+.card div {
+    padding: 1rem;
+}
+
+.card img {
+    border-radius: 10px 10px 0 0;
+}
+
+.card:hover,
+.card:focus,
+.card:active {
+    color: #1b1b1b;
+    border-color: #eaeaea;
+    background-color: #eaeaea;
+    cursor: pointer;
+}
+
+.card:hover .btm-desc {
+    border-top: 2px solid #000;
+}
+
+.card h2 {
+    margin: 0 0 1rem 0;
+    font-size: 1.5rem;
+    word-spacing: 1px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    line-clamp: 1;
+    -webkit-box-orient: vertical;
+}
+
+.card p {
+    margin: 0;
+    font-size: 1.1rem;
+    word-spacing: 1px;
+    line-height: 1.5;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 5;
+    line-clamp: 5;
+    -webkit-box-orient: vertical;
+}
+
+.logo {
+    height: 1em;
+    margin-left: 0.5rem;
+}
+
+@media (max-width: 600px) {
+    .grid {
+        width: 100%;
+        flex-direction: column;
+    }
+}
+
+/* new styles */
+
+.leftColumn {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    background-color: rgb(66, 66, 66);
+    width: 20%;
+    height: 100vh;
+    position: fixed;
+}
+
+.rightColumn {
+    float: right;
+    width: 50%;
+    padding: 10px;
+    background-color: #1b1b1b;
+    width: 80%;
+    position: absolute;
+    right: 0;
+    min-height: 100vh;
+}
+
+
+.h7 {
+    color: rgb(114, 114, 114);
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.s {
+    color: #f73558;
+    font-size: 28px;
+}
+
+.img {
+    width: 450px;
+    height: 500px;
+    border-radius: 15px;
+}
+
+#leftBar .categoryLink:hover {
+    background-color: gray;
+    padding: 7px;
+    border-radius: 0px;
+    cursor: pointer;
+}
+
+#leftBar p {
+    padding: 7px;
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+.pl20 {
+    padding-left: 20px;
+}
+
+.newclass {
+    font-weight: 600;
+    border-bottom: 0.1px solid rgb(100, 100, 100);
+    padding-bottom: 20px;
+    font-size: 28px;
+    color: #f73558;
+    /* padding-left: 12px; */
+}
+
+.cgray {
+    color: gray;
+}
+
+.f600 {
+    font-weight: 600;
+}
+
+.image-container {
+    width: 77vw;
+    height: 50vh;
+    position: relative;
+}
+
+.image-container .image {
+    width: 100%;
+    height: 100%;
+    position: relative !important;
+    object-fit: cover;
+}
+
+.btm-desc {
+    display: flex;
+    justify-content: center;
+    border-top: 2px solid #eaeaea;
+}
+
+.content-desc {
+    font-size: 18px;
+    margin: 30px 0;
+    line-height: 25px;
+    word-spacing: 2px;
+    padding-right: 20px;
+}
+
+.subscribe {
+    bottom: 30px;
+    position: absolute;
+    justify-content: center;
+    width: 100%;
+}
+
+.subscribe input {
+    height: 40px;
+    font-size: 18px;
+    width: 90%;
+    padding: 10px;
+}
+
+.subscribe div {
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.subscribe div button {
+    margin-top: 10px;
+    padding: 8px 8px;
+    font-size: 17px;
+    background-color: #f73558;
+    color: #fafafa;
+    border-radius: 5px;
+    box-shadow: none;
+    cursor: pointer;
+}
+
+.newpost {
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+    font-size: 18px;
+    border: 2px solid #f73558;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #f73558;
+}
+
+.newpost:hover {
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+    font-size: 18px;
+    border: 2px solid #fafafa;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #fafafa;
+    color: #1b1b1b;
+    cursor: pointer;
+}
+
+
+input[type=text], input[type=password], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+    font-size: 16px;
+}
+
+input[type=file] {
+    width: 50%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+    font-size: 16px;
+}
+
+label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+    font-size: 18px;
+}
+
+.submit {
+    background-color: #f73558;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: left;
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+.submit:hover {
+    background-color: #eaeaea;
+    color: #1b1b1b;
+}
+
+.container {
+    border-radius: 5px;
+    /* background-color: #f2f2f2; */
+    padding: 0 10%;
+}
+
+.col-20 {
+    float: left;
+    width: 20%;
+    margin-top: 6px;
+}
+
+.col-80 {
+    float: left;
+    width: 80%;
+    margin-top: 6px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .col-25, .col-75, .submit {
+        width: 100%;
+        margin-top: 0;
+    }
+}
+
+.btns {
+    float: right;
+    padding: 12px;
+}
+
+.btns:hover {
+    cursor: pointer;
+}
+
+textarea {
+    margin-top: 20px;
+}
