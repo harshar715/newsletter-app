@@ -56,24 +56,6 @@
         "author": "author_1"
     },
     {
-        "title": "Testing email",
-        "category": "projects_and_details",
-        "content": [
-            {
-                "style": "Normal",
-                "fontsize": "16px",
-                "title": "Testing the email. Please ignore."
-            }
-        ],
-        "image": "a4447e032fa7372a76472d207.jpeg",
-        "views": 0,
-        "likes": 0,
-        "tags": [],
-        "author": "",
-        "id": 2,
-        "createdAt": "2022-01-09T15:51:03.522Z"
-    },
-    {
         "title": "Some title with no meaning..",
         "category": "others",
         "content": [

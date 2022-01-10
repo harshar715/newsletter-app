@@ -8,7 +8,7 @@ export default async (req, res) => {
     switch (method) {
         case 'GET': {
             try {
-                let data = authors.filter(res => res.username == query.username)[0]['subscribers'];
+                let data = authors.filter(resl => resl.username == query.username)[0]['subscribers'];
                 res.status(200).json({
                     success: true,
                     data: data
@@ -24,10 +24,10 @@ export default async (req, res) => {
         }
         case 'POST': {
             try {
-                authors.forEach(res => {
-                    if (res.username == query.username) {
-                        if (res.subscribers.filter(res1 => res1 == query.email).length == 0) {
-                            res.subscribers.push(query.email);
+                authors.forEach(resl => {
+                    if (resl.username == query.username) {
+                        if (resl.subscribers.filter(res1 => res1 == query.email).length == 0) {
+                            resl.subscribers.push(query.email);
                         } else {
                             res.status(400).json({
                                 success: false
