@@ -1,6 +1,6 @@
 module.exports = {
   reactStrictMode: true,
   env: {
-    BASE_URI: 'http://localhost:3000'
+    BASE_URI: 'https://newsletter-harshar715.herokuapp.com'
   }
 }
